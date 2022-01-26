@@ -8,8 +8,9 @@ function App() {
       <header className="App-header">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<FormPage />} />
+            <Route path="/basvuru-olustur" element={<FormPage />} />
           </Routes>
+          
         </BrowserRouter>
       </header>
     </div>
